@@ -3,7 +3,7 @@
 
  export default defineConfig({
 
-    base: "./",
+    base: "/2d-portfolio-kaboom/",
     build: {
         minify: "terser",
     },
