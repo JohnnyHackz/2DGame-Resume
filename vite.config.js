@@ -3,7 +3,7 @@
 
  export default defineConfig({
 
-    base: "./",
+    base: "/2DGame-Resume",
     build: {
         minify: "terser",
     },
