@@ -4,7 +4,7 @@ export const dialogueData = {
     I also like Javascript and C# and just started making my own game in Unity using C#. Anyway regardless of the language, I just like programming and solving problems.
     Here is my <a href="https://github.com/JohnnyHackz" target="_blank">Github</a>!`,
   "cs-degree": `This is my CS degree. I hung it on the wall because I'm proud of it. It taught me many things but none as important as how to commit and finish something. There was many times I wanted to quit but I didn't. It was a very theoretical degree but I think it gave me a good foundation.`,
-  "sofa-table": `That's my sofa. I like to relax here and watch YouTube and continue.
+  "sofa-table": `That's my sofa. I like to relax here and watch TV and spend quality time with my family.
     <button onclick="copyTextToClipboard('berentsenjakob@gmail.com')">Copy Email</button>`,
   tv: `That's my TV. I've been watching tech YouTubers a lot recently like :
     <a href="https://www.youtube.com/@ThePrimeTimeagen" target="_blank">Theprimeagen</a>, <a href="https://www.youtube.com/@t3dotgg" target="_blank">Theo - t3.gg</a>,
