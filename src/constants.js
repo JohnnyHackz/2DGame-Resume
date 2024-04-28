@@ -6,7 +6,7 @@ export const dialogueData = {
 
   "cs-degree": `This is my CS degree. I hung it on the wall because I'm proud of it. It taught me many things but none as important as how to commit and finish something. There was many times I wanted to quit but I didn't. It was a very theoretical degree but I think it gave me a good foundation.`,
 
-  "sofa-table": `That's my sofa. I like to relax here and watch TV and spend quality time with my family.`,
+  "sofa-table": `That's my sofa. I like to relax here and watch TV and spend quality time with my family. I will also scroll through LinkedIn looking to connect with other Devs and Cybersecurity Professionals. Here is my <a href="https://www.linkedin.com/in/jakobberentsen/" target="_blank"> LinkedIn</a>, add me and lets chat!`,
 
   tv: `That's my TV. I've been watching tech YouTubers a lot recently like:
     <a href="https://www.youtube.com/@ThePrimeTimeagen" target="_blank">Theprimeagen</a>, <a href="https://www.youtube.com/@_JohnHammond" target="_blank"> John Hammond</a>,
