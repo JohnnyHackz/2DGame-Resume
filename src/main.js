@@ -19,6 +19,29 @@ k.loadSprite("map", "./map.png");
 
 k.setBackground(k.Color.fromHex("#311047"));
 
+// Additional JavaScript function to copy text to clipboard
+window.copyTextToClipboard = function(text) {
+  navigator.clipboard.writeText(text).then(() => {
+      console.log('Text successfully copied to clipboard');
+  }).catch(err => {
+      console.error('Failed to copy text to clipboard: ', err);
+  });
+};
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Set up listeners for all buttons that need to copy the email to clipboard
+    const sofaButton = document.getElementById('copyEmailSofa');
+    const resumeButton = document.getElementById('copyEmailResume');
+
+    sofaButton?.addEventListener('click', function() {
+        window.copyTextToClipboard('berentsenjakob@gmail.com');
+    });
+
+    resumeButton?.addEventListener('click', function() {
+        window.copyTextToClipboard('berentsenjakob@gmail.com');
+    });
+});
+
 k.scene("main", async () => {
   const mapData = await (await fetch("./map.json")).json();
   const layers = mapData.layers;
